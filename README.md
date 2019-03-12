@@ -10,15 +10,15 @@ Package yang telah didaftarkan pada PyPI (repository resmi untuk package python)
 pip install numpy <br>
 # 2.	Penggunaan Module di dalam Package Python <br>
 Module merupakan file berekstensi .py yang memuat kode Python dan berisi beberapa fungsi maupun Class. Module dapat disatukan dalam satu package supaya kumpulan module tersebut menjadi terstruktur dan dapat didistribusikan secara mudah. Pemanggilan module dapat dilakukan menggunakan “dot/titik”, contohnya apabila ingin menggunakan module core dalam numpy, maka dapat dilakukan dengan numpy.core
- Konten dari module dapat diakses dengan melakukan import. Ada tiga cara untuk melakukan import module: 
-•	import <nama_module> 
-contoh: 
-import numpy.core
-subtract(3,2)
-•	from <nama_ module> import <nama_obyek>
-contoh: from numpy.core import substract
-subtract(3,2) 
-•	from <nama_ module> import <nama_obyek> as <inisial>
-contoh:  
-from numpy.core import subtract as sub
-sub(3, 2)
+ Konten dari module dapat diakses dengan melakukan import. Ada tiga cara untuk melakukan import module: <br>
+•	import <nama_module> <br> 
+contoh: <br>
+import numpy.core <br>
+subtract(3,2) <br>
+•	from <nama_ module> import <nama_obyek> <br>
+contoh: from numpy.core import substract <br>
+subtract(3,2) <br>
+•	from <nama_ module> import <nama_obyek> as <inisial> <br>
+contoh:  <br>
+from numpy.core import subtract as sub <br>
+sub(3, 2) <br>
